@@ -14,6 +14,11 @@
         }
         td, th{
             border: 1px solid black;
+            padding: 10px;
+        }
+        thead, tfoot{
+            background-color: gray;
+            color: white;
         }
     </style>
 </head>
@@ -32,20 +37,50 @@
     <table>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
 
         <tbody>
             <tr>
                 <td>São Paulo</td>
-                <td>45 919 049</td>
+                <td>46 649 132	</td>
+            </tr>
+            <tr>
+                <td> Minas Gerais</td>
+                <td>21 411 923</td>
+            </tr>
+            <tr>
+                <td> Rio de Janeiro</td>
+                <td>17 463 349</td>
+            </tr>
+            <tr>
+                <td> Bahia</td>
+                <td>14 985 284</td>
+            </tr>
+            <tr>
+                <td> Paraná</td>
+                <td>11 597 484</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td>11 466 630</td>
+            </tr>
+            <tr>
+                <td> Pernambuco</td>
+                <td>9 674 793	</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td>9 240 580</td>
             </tr>
  
         </tbody>
 
         <tfoot>
+            <th scope="row">Total de habitantes</th>
+            <td>00000</td>
 
         </tfoot>
     </table>
